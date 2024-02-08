@@ -18,3 +18,6 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 4. Test route `http://127.0.0.1:5000/create_tag` with Postman passing ```{"tag path": "987-654-321"}```;
 
 ![imgs/Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
+
+5. Create `main` directory and `routes` and `server` subdirectories
+- all must have a `__init__.py` file

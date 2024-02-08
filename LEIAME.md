@@ -18,3 +18,6 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 4. Testar rota `http://127.0.0.1:5000/create_tag` com Postman passando ```{"tag path": "987-654-321"}```;
 
 ![imgs/Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
+
+5. Criar diretório `main` e subdiretórios `routes`e `server`
+- todos devem ter um arquivo `__init__.py`
