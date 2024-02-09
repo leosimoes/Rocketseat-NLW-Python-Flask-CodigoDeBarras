@@ -19,5 +19,7 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 
 ![imgs/Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
 
-5. Criar diretório `main` e subdiretórios `routes`e `server`
+5. Criar diretórios:
+- a partir da raiz do projeto: `/src`, `/src/controllers`, `/src/drivers`, `/src/errors`, `/src/main`, 
+  `/src/main/routes`, `/src/main/server`,`/src/validators`, `/src/views`, `/src/views/http_types`
 - todos devem ter um arquivo `__init__.py`
