@@ -25,3 +25,7 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 - todos devem ter um arquivo `__init__.py`
 
 ![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
+
+6. Extrair parte do código de `app.py` para 
+- `server.py`: cria app e registra Blueprints
+- `tag_routes.py`: cria um Blueprint para a rota `POST '/create_tag'`

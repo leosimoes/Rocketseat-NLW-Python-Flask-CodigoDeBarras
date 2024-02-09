@@ -25,3 +25,7 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 - everyone must have a `__init__.py` file
 
 ![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
+
+6. Extract part of the code from `app.py` to
+- `server.py`: creates app and registers Blueprints
+- `tag_routes.py`: creates a Blueprint for the `POST '/create_tag'` route
