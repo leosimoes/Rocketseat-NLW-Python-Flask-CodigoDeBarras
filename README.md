@@ -29,3 +29,10 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 6. Extract part of the code from `app.py` to
 - `server.py`: creates app and registers Blueprints
 - `tag_routes.py`: creates a Blueprint for the `POST '/create_tag'` route
+
+7. Extract part of the `create_tag` function code from `tag_routes.py` to the files:
+- `src.drivers.barcode_handler.py` with the BarcodeHandler class;
+- `src/views/tag_creator_view.py` with the TagCreatorView class;
+- `src.controllers.tag_creator_controller.py` with the TagCreatorController class;
+- `src.views.http_types.http_request.py` with the HttpRequest class;
+- `src.views.http_types.http_response.py` with the HttpResponse class.

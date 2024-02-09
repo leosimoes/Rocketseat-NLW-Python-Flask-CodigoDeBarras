@@ -29,3 +29,10 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 6. Extrair parte do código de `app.py` para 
 - `server.py`: cria app e registra Blueprints
 - `tag_routes.py`: cria um Blueprint para a rota `POST '/create_tag'`
+
+7. Extrair parte do código da função `create_tag` de `tag_routes.py` para os arquivos:
+- `src.drivers.barcode_handler.py` com a classe BarcodeHandler;
+- `src/views/tag_creator_view.py` com a classe TagCreatorView;
+- `src.controllers.tag_creator_controller.py` com a classe TagCreatorController;
+- `src.views.http_types.http_request.py` com a classe HttpRequest;
+- `src.views.http_types.http_response.py` com a classe HttpResponse.
