@@ -23,3 +23,5 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 - from the project root: `/src`, `/src/controllers`, `/src/drivers`, `/src/errors`, `/src/main`,
    `/src/main/routes`, `/src/main/server`, `/src/validators`, `/src/views`, `/src/views/http_types`
 - everyone must have a `__init__.py` file
+
+![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)

@@ -23,3 +23,5 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 - a partir da raiz do projeto: `/src`, `/src/controllers`, `/src/drivers`, `/src/errors`, `/src/main`, 
   `/src/main/routes`, `/src/main/server`,`/src/validators`, `/src/views`, `/src/views/http_types`
 - todos devem ter um arquivo `__init__.py`
+
+![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
