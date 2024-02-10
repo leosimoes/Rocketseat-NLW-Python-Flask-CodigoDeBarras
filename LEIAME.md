@@ -10,6 +10,7 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 2. Instalar outras dependências:
 - pillow
 - python-barcode
+- Cerberus
 
 3. Alterar `app.py`:
 - remover rota `/`;
@@ -40,3 +41,7 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 8. Criar uma função para exibir erro após tratá-lo com `try except`:
 - `src/errors/error_handler.py` com função `handle_errors`;
 - função `create_tag` trata exceptions com `try except`.
+
+9. Adicionar error personalizado e validação:
+- `src/errors/error_types/http_unprocessable_entity.py` com a classe `HttpUnprocessableEntityError`;
+- `src/validators/tag_creator_validator.py` com a função `tag_creator_validator`.

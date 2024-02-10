@@ -10,6 +10,7 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 2. Install other dependencies:
 - pillow
 - python-barcode
+- Cerberus
 
 3. Change `app.py`:
 - remove route `/`;
@@ -40,3 +41,7 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 8. Create a function to display an error after handling it with `try except`:
 - `src/errors/error_handler.py` with `handle_errors` function;
 - function `create_tag` handles exceptions with `try except`.
+
+9. Add custom error and validation:
+- `src/errors/error_types/http_unprocessable_entity.py` with class `HttpUnprocessableEntityError`;
+- `src/validators/tag_creator_validator.py` with the `tag_creator_validator` function.
