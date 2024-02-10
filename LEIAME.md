@@ -11,6 +11,7 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 - pillow
 - python-barcode
 - Cerberus
+- pytest
 
 3. Alterar `app.py`:
 - remover rota `/`;
@@ -18,14 +19,14 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 
 4. Testar rota `http://127.0.0.1:5000/create_tag` com Postman passando ```{"tag path": "987-654-321"}```;
 
-![imgs/Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
+![Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
 
 5. Criar diretórios:
 - a partir da raiz do projeto: `/src`, `/src/controllers`, `/src/drivers`, `/src/errors`, `/src/main`, 
   `/src/main/routes`, `/src/main/server`,`/src/validators`, `/src/views`, `/src/views/http_types`
 - todos devem ter um arquivo `__init__.py`
 
-![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
+![Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
 
 6. Extrair parte do código de `app.py` para 
 - `server.py`: cria app e registra Blueprints
@@ -45,3 +46,9 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 9. Adicionar error personalizado e validação:
 - `src/errors/error_types/http_unprocessable_entity.py` com a classe `HttpUnprocessableEntityError`;
 - `src/validators/tag_creator_validator.py` com a função `tag_creator_validator`.
+
+10. Criar testes:
+- os nomes dos arquivos de testes devem terminar com `_test.py`;
+- `pytest -s -v` para executar todos os testes do diretório.
+
+![Img-4-Tests.jpg](imgs/Img-4-Tests.jpg)

@@ -11,6 +11,7 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 - pillow
 - python-barcode
 - Cerberus
+- pytest
 
 3. Change `app.py`:
 - remove route `/`;
@@ -18,14 +19,14 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 
 4. Test route `http://127.0.0.1:5000/create_tag` with Postman passing ```{"tag path": "987-654-321"}```;
 
-![imgs/Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
+![Img-2-Test-987-654-32](imgs/Img-2-Test-987-654-321.jpg)
 
 5. Create directories:
 - from the project root: `/src`, `/src/controllers`, `/src/drivers`, `/src/errors`, `/src/main`,
    `/src/main/routes`, `/src/main/server`, `/src/validators`, `/src/views`, `/src/views/http_types`
 - everyone must have a `__init__.py` file
 
-![imgs/Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
+![Img-3-Directories.jpg](imgs/Img-3-Directories.jpg)
 
 6. Extract part of the code from `app.py` to
 - `server.py`: creates app and registers Blueprints
@@ -45,3 +46,9 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 9. Add custom error and validation:
 - `src/errors/error_types/http_unprocessable_entity.py` with class `HttpUnprocessableEntityError`;
 - `src/validators/tag_creator_validator.py` with the `tag_creator_validator` function.
+
+10. Create tests:
+- test file names must end with `_test.py`;
+- `pytest -s -v` to run all tests in the directory.
+
+![Img-4-Tests.jpg](imgs/Img-4-Tests.jpg)
