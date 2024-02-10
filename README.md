@@ -31,8 +31,12 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 - `tag_routes.py`: creates a Blueprint for the `POST '/create_tag'` route
 
 7. Extract part of the `create_tag` function code from `tag_routes.py` to the files:
-- `src.drivers.barcode_handler.py` with the BarcodeHandler class;
+- `src/drivers/barcode_handler.py` with the BarcodeHandler class;
 - `src/views/tag_creator_view.py` with the TagCreatorView class;
-- `src.controllers.tag_creator_controller.py` with the TagCreatorController class;
-- `src.views.http_types.http_request.py` with the HttpRequest class;
-- `src.views.http_types.http_response.py` with the HttpResponse class.
+- `src/controllers/tag_creator_controller.py` with the TagCreatorController class;
+- `src/views/http_types/http_request.py` with the HttpRequest class;
+- `src/views/http_types/http_response.py` with the HttpResponse class.
+
+8. Create a function to display an error after handling it with `try except`:
+- `src/errors/error_handler.py` with `handle_errors` function;
+- function `create_tag` handles exceptions with `try except`.

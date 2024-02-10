@@ -31,8 +31,12 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 - `tag_routes.py`: cria um Blueprint para a rota `POST '/create_tag'`
 
 7. Extrair parte do código da função `create_tag` de `tag_routes.py` para os arquivos:
-- `src.drivers.barcode_handler.py` com a classe BarcodeHandler;
+- `src/drivers/barcode_handler.py` com a classe BarcodeHandler;
 - `src/views/tag_creator_view.py` com a classe TagCreatorView;
-- `src.controllers.tag_creator_controller.py` com a classe TagCreatorController;
-- `src.views.http_types.http_request.py` com a classe HttpRequest;
-- `src.views.http_types.http_response.py` com a classe HttpResponse.
+- `src/controllers/tag_creator_controller.py` com a classe TagCreatorController;
+- `src/views/http_types/http_request.py` com a classe HttpRequest;
+- `src/views/http_types/http_response.py` com a classe HttpResponse.
+
+8. Criar uma função para exibir erro após tratá-lo com `try except`:
+- `src/errors/error_handler.py` com função `handle_errors`;
+- função `create_tag` trata exceptions com `try except`.
