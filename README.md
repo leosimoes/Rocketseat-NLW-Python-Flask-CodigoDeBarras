@@ -2,6 +2,7 @@
 
 Rocketseat's NLW event project using Python and Flask to generate barcode.
 
+
 ## Steps
 1. Create Flask project in PyCharm:
 
@@ -52,3 +53,8 @@ Rocketseat's NLW event project using Python and Flask to generate barcode.
 - `pytest -s -v` to run all tests in the directory.
 
 ![Img-4-Tests.jpg](imgs/Img-4-Tests.jpg)
+
+
+## Certificate
+
+![Img-5-Certificate-NLW-2024-Python](imgs/Img-5-Certificate-NLW-2024-Python.jpg)

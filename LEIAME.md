@@ -2,6 +2,7 @@
 
 Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de barras.
 
+
 ## Passos
 1. Criar projeto Flask no PyCharm:
 
@@ -52,3 +53,8 @@ Projeto do evento NLW da Rocketseat usando Python e Flask para gerar código de 
 - `pytest -s -v` para executar todos os testes do diretório.
 
 ![Img-4-Tests.jpg](imgs/Img-4-Tests.jpg)
+
+
+## Certificado
+
+![Img-6-Certificado-NLW-2024-Python.jpg](imgs/Img-6-Certificado-NLW-2024-Python.jpg)
